@@ -2,6 +2,8 @@
 
 Docling MCP can be easily integrated into MCP-compatible clients using standard configuration methods.
 
+> **Note:** Before integrating with clients, make sure Docling MCP is installed on your system. See the [Installation Guide](../../INSTALL.md) for detailed instructions.
+
 ## Claude for Desktop
 
 [Claude for Desktop](https://claude.ai/download) supports integration via the `claude_desktop_config.json` file (located at `~/Library/Application Support/Claude/claude_desktop_config.json` in MacOS). By adding the appropriate Docling MCP endpoint and parameters to this configuration, Claude Desktop can connect to and utilize Docling MCP’s functionality with minimal effort. You can find an example of those details [here](claude_desktop_config.json).
