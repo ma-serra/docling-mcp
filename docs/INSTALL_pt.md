@@ -268,6 +268,28 @@ python -m docling_mcp.servers.mcp_server
 
 Após a instalação, verifique se o Docling MCP está funcionando corretamente:
 
+### Verificação Automática (Linux/macOS)
+
+Para usuários de Linux e macOS, você pode usar o script de verificação automática:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/docling-project/docling-mcp/main/scripts/verify_installation.sh | bash
+```
+
+Ou se você clonou o repositório:
+
+```bash
+./scripts/verify_installation.sh
+```
+
+Este script verificará:
+- Versão do Python (3.10+)
+- Instalação do pip
+- Instalação do uv (opcional)
+- Status da instalação do Docling MCP
+
+### Verificação Manual
+
 1. **Verifique a versão:**
    ```bash
    uvx --from docling-mcp docling-mcp-server --version
