@@ -66,11 +66,9 @@ echo "Checking pip installation..."
 if command -v pip3 &> /dev/null; then
     PIP_VERSION=$(pip3 --version | awk '{print $2}')
     success "pip $PIP_VERSION found"
-    PIP_CMD="pip3"
 elif command -v pip &> /dev/null; then
     PIP_VERSION=$(pip --version | awk '{print $2}')
     success "pip $PIP_VERSION found"
-    PIP_CMD="pip"
 else
     error "pip not found. Please install pip"
     exit 1
