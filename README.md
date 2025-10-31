@@ -35,7 +35,13 @@ Docling MCP is a service that provides tools for document conversion, processing
 - Logging system for debugging and monitoring
 - RAG applications with Milvus upload and retrieval
 
-## Getting started
+## Installation
+
+For detailed installation instructions including prerequisites, platform-specific guides, and troubleshooting, see the **[Installation Guide](INSTALL.md)**.
+
+📖 **Other languages:** [Português/Galego](docs/INSTALL_pt.md)
+
+## Quick Start
 
 The easiest way to install Docling MCP is connect it to your client is launching it via [uvx](https://docs.astral.sh/uv/).
 
